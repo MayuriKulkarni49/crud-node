@@ -7,7 +7,7 @@ const cors=require('cors')
 const db=mysql.createPool({
     host:'localhost',
     user:'root',
-    password:'Mayuri@4997',
+    password:'YourPassword',
     database:'crud-node'
 })
 app.use(body_parser.urlencoded({extended:true}))
